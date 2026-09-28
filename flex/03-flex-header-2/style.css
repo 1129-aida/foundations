@@ -52,28 +52,22 @@ ul {
 .header {
   display: flex;
   padding: 8px;
+  justify-content: space-between;
 }
 
 ul {
   margin: 0;
   padding: 0;
-  gap: 8px;
+  gap: 16px;
   display: flex;
 }
 
-.lg {
+.lg,
+.acc {
  display: flex;
  align-items: center;
  gap: 16px;
- width: 370px;
- flex: none;
 }
 
-.acc {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  flex: auto;
-  justify-content: flex-end;
-}
+
 
