@@ -27,33 +27,20 @@ img {
 
 /*start*/ 
 
+body {
+  text-align: center;
+}
+
 .title {
-  display: flex;
-  justify-content: center;
+  margin-bottom: 32px;
 }
 
 .kub {
   display: flex;
-  margin: 32px 40px;
   gap: 52px;
   justify-content: center;
-  align-items: baseline;
 }
 
 .el {
-  width: 200px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-}
-
-.text {
-  text-align: center;
-}
-
-img {
-  display: flex;
-  flex: auto;
-  align-content: center;
+  max-width: 200px;
 }
